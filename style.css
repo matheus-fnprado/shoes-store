@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.cabecalho{
+    width:100%;
+    height: 100%;
+    max-height: 122px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 19px;
+    padding-right: 39px;
+}
+
+.logo{
+    width:100%;
+    max-width: 209px;
+    height:100%;
+    max-height: 104px;
+}
+
+.menu{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu-1{
+    margin: 12px;
+}
+
+.banner-principal{
+    width: 100%;
+    max-width: 1366px;
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.texto-titulo{
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 113px;
+    padding-right: 113px;
+    gap: 54px;
+}
+
+.slider-1{
+    padding-top: 80px;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 600px;
+    box-sizing: border-box;
+}
+
+.slider-2{
+    padding-top: 80px;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 758px;
+    box-sizing: border-box;
+}
+
+.ofertas{
+    margin-top: 103px;
+    background-color: #C2185B;
+    height: 662px;
+    width: 100%;
+}
+
+.title-ofertas{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 44px;
+    color: white;
+    font-weight: 800;
+}
+
+.slider-ofertas{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+.sale{
+    width: 100%;
+    max-width: 260px ;
+    height: 388px;
+    margin: 18px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.img-sale{
+    width: 100%;
+    max-width: 260px ;
+    height: 100%;
+    max-height: 300px;
+}
+
+.text-sale{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 17px;
+    margin: auto;
+    padding-top: 18px;
+}
+
+.price-sale{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    text-align:justify;
+    margin: auto;
+    padding-left: 17px;
+}
+
+.slider2{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding-left: 113px;
+    padding-right: 113px;
+    gap: 5px
+}
+
+.slider-3{
+    padding-top: 80px;
+    width: 100%;
+    max-width: 513px;
+    height: 100%;
+    max-height: 663px;
+    box-sizing: border-box;
+}
+
+.slider-4{
+    padding-top: 80px;
+    width: 100%;
+    max-width: 507px;
+    height: 100%;
+    max-height: 939px;
+    box-sizing: border-box;
+}
+
+.promocional{
+    font-size: 39px;
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    width: 240px;
+    height: 60px;
+    background-color: #C2185B;
+    color: white;
+    border: none;
+    font-size: 25px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: purple;
+}
+
+.rodape{
+    margin-top: 103px;
+    background-color: #C2185B;
+    height: 248px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 127px;
+    padding-right: 148px;
+    box-sizing: border-box;
+}
+
+.img-rodape{
+    width: 255px;
+}
+
+.rod{
+    display: block;
+}
+
+.rod-1{
+    color: white;
+    font-weight: 400;
+}
+
