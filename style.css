@@ -8,13 +8,12 @@
 }
 
 .banner{
-    width: 100%;
-    max-width: 1366px;
+    width: 100vw;
     margin: auto;
 }
 
 .cabecalho{
-    width:100%;
+    width:100vw;
     height: 100%;
     max-height: 122px;
     display: flex;
@@ -42,8 +41,7 @@
 }
 
 .banner-principal{
-    width: 100%;
-    max-width: 1366px;
+    width: 100vw;
     height: 100%;
 }
 
@@ -213,3 +211,11 @@ button:hover{
     font-weight: 400;
 }
 
+@media (max-width: 426px){
+    
+    
+    .slider-ofertas{
+        display: flex;
+        flex-direction: column;
+    }
+}
